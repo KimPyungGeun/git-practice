@@ -12,6 +12,13 @@ git clone https://github.com/KimPyungGeun/git-practice.git
 
 파일과 깃 연동완료.
 
+
+[로컬 레파지토리(내용 변경)- > 깃헙 레파지토리 변경 내용 저장]
 스테이징 올리기 =  git add "파일명"
 커밋하기(로컬저장소 저장) = git commit -m "커밋메세지"
 푸시하기(깃허브 레파지토리에 저장) = git push 
+
+[깃헙 레파지토리(내용 변경) - > 로컬 레파지토리에 변경내용 저장]
+깃허브 레파지토리->로컬 레파지토리 = git fetch
+로컬 레파지토리->working directory(파일) = git merge
+*fetch+merge = git full
