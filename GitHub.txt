@@ -1,0 +1,17 @@
+git
+
+cmd에서 
+git config --global user.name kimp37
+git config --global user.email kimp37@naver.com
+생성
+
+깃허브 레파지토리 저장할 폴더 만든후
+cd 폴더주소로 이동후
+
+git clone https://github.com/KimPyungGeun/git-practice.git
+
+파일과 깃 연동완료.
+
+스테이징 올리기 =  git add "파일명"
+커밋하기(로컬저장소 저장) = git commit -m "커밋메세지"
+푸시하기(깃허브 레파지토리에 저장) = git push 
